@@ -1,0 +1,120 @@
+*{
+    color: #710d98; 
+    background-color: rgb(240, 86, 127);
+}
+
+textarea {
+    width: 95%;
+    border: 5px solid #FFE066;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.box {
+    background-color: #F4F4F4;
+    width: 46%;
+    padding: 11px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #F5DEB3; 
+}
+
+.graph{
+    overflow-x: scroll;
+    max-height: 650px; 
+}
+
+.box h2 {
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(244, 244, 244);
+    padding: 5px;
+}
+
+.box #result {
+    background: #dd871f;
+    color: #fff; 
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+/* table */
+table {
+    width: 100%;
+    box-shadow: -3px 3px #808080; 
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+table, th {
+    border-bottom: 2px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+    background-color:white;
+}
+
+table tr {
+    overflow: hidden;
+    width: 20px;
+}
+
+table th {
+    background-color: #77fc5d;
+    color: black;
+}
+
+.code {
+    word-break: break-all;
+}
+/* end table */
+
+/* Graph */
+
+.node circle {
+    fill: #fff;
+    stroke: #DCDCDC;
+}
+
+.node text {
+    font: 14px sans-serif;
+    font-weight: bold;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+}
+/* End graph*/
+
+/*Media for small screens*/
+@media all and (max-width: 800px) {
+    .deCoder {
+        width: 90%;
+        float: left;
+    }
+    .enCoder {
+        width: 90%;
+        float: left;
+    }
+    .graph {
+        width: 90%;
+        float: left;
+    }
+}
+.banner 
+{
+    text-align: center;
+    /* margin-left: 30px; */
+}
