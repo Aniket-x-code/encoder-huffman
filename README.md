@@ -10,3 +10,6 @@ You can visit the [Demo Website](http://khaledm.com/huffman)
 
 ##License 
 MIT
+
+
+https://i.pinimg.com/originals/d4/8f/f4/d48ff412a005460775821c7228666aa6.gif
