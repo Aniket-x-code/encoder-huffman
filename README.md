@@ -1,5 +1,5 @@
 ## Huffman Coding 
-Representation of the Huffman Coding in JS, CSS, &amp; HTML for my Design and Analysis of Algorithm Course in my 5th semester.
+Representation of the Huffman Coding in JS, CSS, &amp; HTML for my Design and Analysis of Algorithm Course in my 5th Semester.
 
 ## Info 
 You can visit the [Demo Website](http://khaledm.com/huffman)
